@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet"
+        type="text/css"
+        href="https://shayleebroadfoot.github.io/style.css" />
+        
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shaylee Broadfoot</title>
@@ -22,7 +26,7 @@
   <p>This is a sample webpage.</p>
   
   <p>You have accessed this page <span id = "report"> </span> times.
-
+  <br>
   Your last visit was <span id = "lastVisitDate"> </span> </p>
 
   <script>
@@ -40,9 +44,10 @@
     timesVisited++;
     document.getElementById('report').innerHTML = timesVisited;
 
-    var myLastVisit = {} 
+    var myLastVisit = {};
     myLastVisit.date = new Date();
     myLastVisit.numVisits = timesVisited;
     localStorage.lastVisit = JSON.stringify(myLastVisit);
   </script>
 </body>
+
