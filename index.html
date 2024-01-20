@@ -45,7 +45,7 @@
     document.getElementById('report').innerHTML = timesVisited;
 
     var myLastVisit = {};
-    myLastVisit.date = new Date();
+    myLastVisit.date = new Date().toDateString();
     myLastVisit.numVisits = timesVisited;
     localStorage.lastVisit = JSON.stringify(myLastVisit);
   </script>
