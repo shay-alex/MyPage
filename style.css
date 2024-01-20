@@ -1,0 +1,9 @@
+#Name.Header { 
+  colour: purple;
+  text-transform: capitalize;
+  font-family: Comic Sans;
+}
+
+body {
+  font-family: Times New Roman;
+}
