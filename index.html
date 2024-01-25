@@ -11,23 +11,19 @@
 </head>
 
 <body>
-  <table> 
-    <tr>
-      <td> </td>
-      <td> <h1 id = "Name Header"> Shaylee Broadfoot</h1> </td>
-      <td> </td>
-    </tr>
-  </table>
+  <div class="name-header center"> <h1>Shaylee Broadfoot</h1> </div>
   <br>
   
-  <h3>Aspiring software engineer</h3>
+  <h3 class="center">Aspiring software engineer</h3>
   <br>
   <br>
+  <div class="regular-text"> 
   <p>This is a sample webpage.</p>
   
-  <p>You have accessed this page <span id = "report"> </span> times.
+  <p>You have accessed this page <span id="report"> </span> times.
   <br>
-  Your last visit was <span id = "lastVisitDate"> </span> </p>
+  Your last visit was <span id="lastVisitDate"> </span> </p>
+  </div>
 
   <script>
     var timesVisited = 0;
@@ -49,5 +45,8 @@
     myLastVisit.numVisits = timesVisited;
     localStorage.lastVisit = JSON.stringify(myLastVisit);
   </script>
+
 </body>
+</html>
+
 
