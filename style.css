@@ -1,9 +1,28 @@
-#Name.Header { 
-  colour: purple;
+.name-header { 
+  color:black;
   text-transform: capitalize;
-  font-family: Comic Sans;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 30px;
+  font-variant: normal; 
+  line-height: 60px;
+}
+.center {
+  text-align: center;
 }
 
-body {
-  font-family: Times New Roman;
+.regular-text {
+  color: black;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 20px;
+
+}
+
+#report, #lastVisitDate {
+  color:darkorchid;
+  font-style: italic;
+
 }
